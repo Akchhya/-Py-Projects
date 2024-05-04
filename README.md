@@ -1,2 +1,2 @@
-# 100Days-100-Projects
+# Py Projects
 100 Projects in Python 
