@@ -6,7 +6,7 @@ BMI= float(weight/(height*height))
 if BMI < 18.5:
     print(f"Your BMI is {BMI}, you are underweight.")
 elif 18.5 <= BMI < 25:
-    print(f"Your BMI is {BMI}, you have a normal weight.")
+    print(f"Your BMI is {BMI}, you have a normal weight :) ")
 elif 25 <= BMI < 30:
     print(f"Your BMI is {BMI}, you are slightly overweight.")
 elif 30 <= BMI < 35:
