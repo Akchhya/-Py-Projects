@@ -10,7 +10,8 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 pass_list = []
 for i in range(nr_letters):
-  pass_list.append(random.choice(letters))
+  pass_list.append(random.choice(letters))student_scores = {student: random.randint(0, 100) for student in names}
+passed_stu = {student:score for (student,score) in student_scores.items if score>50}
 for i in range(nr_symbols):
   pass_list.append(random.choice(symbols))
 for i in range(nr_numbers):
